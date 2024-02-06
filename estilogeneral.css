@@ -16,6 +16,14 @@ body {
     padding: 0.5em 0 0 0;
 }
 
+.introImagen {
+    width: 100%;
+    border: 3px solid rgb(160, 136, 0);
+    @media only screen and (min-width: 768px) {
+        border: 5px solid rgb(135, 118, 133);
+    }
+}
+
 .menuHeading {
     padding: 16px;
 }
@@ -35,10 +43,10 @@ body {
 
 .homeImageBorder {
     width: '300px';
-    border: 8px solid pink;
+    border: 2px solid gold;
     margin: 16px 8px;
     @media only screen and (min-width: 768px) {
-        border: 4px solid palevioletred;
+        border: 2px solid rgb(132, 132, 132);
         width: '150px';
     }
 }
