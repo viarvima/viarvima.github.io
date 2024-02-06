@@ -18,6 +18,7 @@ body {
 
 .introImagen {
     width: 100%;
+    object-fit: contain;
     border: 3px solid rgb(160, 136, 0);
     @media only screen and (min-width: 768px) {
         border: 5px solid rgb(135, 118, 133);
