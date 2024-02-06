@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de Home */
+
+.menu {
+    width: 100%;
+    font-family: 'Great Vibes', cursive;
+    background-color: #fff0f5;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    padding: 0.5em 0 0 0;
+}
+
+.menuHeading {
+    padding: 16px;
+}
+
+.menuHeader {
+    position: fixed;
+    width:100%;
+    height: 200px;
+    top:0px;
+    left:0px;
+}
+
+.menuFooter {
+    width: 100%;
+    height: 80px;
+}
+
+.homeImageBorder {
+    width: '300px';
+    border: 8px solid pink;
+    margin: 16px 8px;
+    @media only screen and (min-width: 768px) {
+        border: 4px solid palevioletred;
+        width: '150px';
+    }
+}
+
+.plantillaFooter {
+    font-family: 'Great Vibes', cursive;
+    background-color: #fff0f5;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    padding: 0.5em;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos de About Us */
+
+.Ilustrativa {
+    margin:0px;
+    padding:0px;
+    display: inline-block;
+    font-family:'Sans serif';
+}
+
+.heading{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.seccionNosotros {
+    padding-top: 16px;
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+.seccionNosotros > h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+.seccionNosotros > p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos de Galeria  */
+
+.galeria {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+
+.botones {
+    display: inline-block;
+    margin-bottom: 300px;
+}
+
+.seccionGaleria {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    padding: 0 60px;
+}
+
+/* Estilos de Perfil */
+
+.imagenPerfil {
+    margin-right: 32px;
+    border-radius: 90%;
+}
+
+.tarjetaPerfil {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 32px;
+    margin-bottom: 30px;
+}
+
+.informacionPerfil > h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    display: inline;
+    white-space: nowrap;
+}
+
+.informacionPerfil > ul > li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos de Servicios */
+
+.seccionServicios {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.imagernServicios {
+    width: 100%;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.servicios {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 16px;
+    height: 500px;
+    background-color: aliceblue;
+    box-shadow: 0px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 300px;
+    margin: 0px 40px 16px;
+    text-align: center;
+}
+
+.servicios:hover {
+    box-shadow: 6px 11px 27px 0px rgba(0,0,0,0.75);
+}
+
+.titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.servicios > h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+.servicios > p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    padding: 0 8px;
+}
