@@ -1,0 +1,7 @@
+@import 'vars';
+
+body {
+    margin: map-get($margenes, none);
+    padding: map-get($paddings, none);
+    box-sizing: border-box;
+}

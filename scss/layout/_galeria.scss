@@ -1,0 +1,23 @@
+@import '../base/vars';
+
+.estilocomun {
+    display: inline-block;
+}
+
+.galeria {
+    @extend .estilocomun;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+
+.botones {
+    @extend .estilocomun;
+    margin-bottom: 300px;
+}
+
+.seccionGaleria {
+    font-family: map-get($fonts, playfair), serif;
+    font-size: 32px;
+    padding: 0 60px;
+}

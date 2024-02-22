@@ -1,0 +1,40 @@
+// Colores
+$colores: (
+    colorPrincipal: #ffe5ec,
+    colorSecundario: #ffc2d1,
+    colorTeciario: #ffb3c6,
+    colorLetras: #000000,
+    colorFondo: #fb6f92
+);
+
+// Breakpoints
+$breakpoints: (
+  small: 767px,
+  medium: 992px,
+  large: 1200px
+);
+
+// Margenes
+$margenes: (
+    none: 0px,
+    small: 8px,
+    medium: 16px,
+    large: 24px,
+    xlarge: 32px,
+);
+
+// Padding
+$paddings: (
+    none: 0px,
+    small: 8px,
+    medium: 16px,
+    large: 24px,
+    xlarge: 32px,
+);
+
+// Fonts
+$fonts: (
+    vibes: 'Great Vibes',
+    playfair: 'Playfair Display',
+    nunito: 'Nunito Sans',
+)

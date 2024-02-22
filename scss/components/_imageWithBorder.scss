@@ -1,0 +1,27 @@
+@import '../base/vars';
+
+@mixin homeImage($width, $color) {
+    width: $width;
+    color: $color;
+}
+
+$imageTypes: 1, 2, 3;
+
+@each $imageType in $imageTypes {
+    .homeImageBorder-#{$imageType} {
+        @if $imageType == 1 {
+            @include homeImage(300px, #000000);
+        } @else if $imageType == 2 {
+            @include homeImage(400px, #fb6f92);
+        } @else if $imageType == 3 {
+            @include homeImage(500px, #ffb3c6);
+        }
+
+        border: 8px solid map-get($colores, colorPrincipal);
+        margin: map-get($margenes, small) map-get($margenes, medium);
+        @media only screen and (min-width: map-get($breakpoints, small)) {
+            border: 4px solid map-get($colores, colorSecundario);
+            width: '150px';
+        }
+    }
+}

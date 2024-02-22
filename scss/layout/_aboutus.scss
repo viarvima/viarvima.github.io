@@ -1,0 +1,25 @@
+@import '../base/vars';
+
+.heading{
+    width: 90%;
+    display: block;
+    margin: map-get($margenes, none) auto;
+}
+
+.seccionNosotros {
+    padding-top: map-get($paddings, medium);
+    margin: map-get($margenes, none) auto;
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+.seccionNosotros > h2 {
+    font-family: map-get($fonts, playfair), serif;
+    font-size: 32px;
+}
+
+.seccionNosotros > p {
+    font-family: map-get($fonts, nunito), serif;
+    font-size: 16px;
+}

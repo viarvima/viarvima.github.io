@@ -1,0 +1,32 @@
+@import '../base/vars';
+
+.estiloGeneral {
+    width: 100%;
+}
+
+.menu {
+    @extend .estiloGeneral;
+    font-family: map-get($fonts, vibes), cursive;
+    background-color: map-get($colores, colorFondo);
+    font-size: 20px;
+    color: map-get($colores, colorLetras);
+    text-align: left;
+    padding: map-get($margenes, small) map-get($margenes, none) map-get($margenes, none) map-get($margenes, none);
+}
+
+.menuHeading {
+    padding: map-get($paddings, small);
+}
+
+.menuHeader {
+    @extend .estiloGeneral;
+    position: fixed;
+    height: 200px;
+    top:0px;
+    left:0px;
+}
+
+.menuFooter {
+    @extend .estiloGeneral;
+    height: 80px;
+}

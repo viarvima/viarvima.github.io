@@ -1,0 +1,53 @@
+@import '../base/vars';
+
+.estiloComun {
+    display: inline-block;
+}
+
+.seccionServicios {
+    @extend .estiloComun;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.imagernServicios {
+    width: 100%;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.servicios {
+    @extend .estiloComun;
+    border: 1px solid map-get($colores, colorLetras);
+    border-radius: 16px;
+    height: 500px;
+    background-color: aliceblue;
+    box-shadow: 0px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 300px;
+    margin: 0px 40px 16px;
+    text-align: center;
+}
+
+.servicios:hover {
+    box-shadow: 6px 11px 27px 0px map-get($colores, colorLetras);
+}
+
+.titulo {
+    font-family: map-get($fonts, playfair), serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.servicios > h2 {
+    font-family: map-get($fonts, playfair), serif;
+    font-size: 32px;
+}
+
+.servicios > p {
+    font-family: map-get($fonts, nunito), serif;
+    font-size: 16px;
+    padding: map-get($paddings, none) map-get($paddings, small);
+}

@@ -1,0 +1,13 @@
+@import '../base/vars';
+
+.plantillaFooter {
+    font-family: map-get($fonts, vibes), cursive;
+    background-color: map-get($colores, colorFondo);
+    color: map-get($colores, colorLetras);
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    padding: map-get($paddings, large);
+    bottom: 0;
+    width: 100%;
+}

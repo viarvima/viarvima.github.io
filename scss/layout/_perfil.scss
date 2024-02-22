@@ -1,0 +1,42 @@
+@import '../base/vars';
+
+.imagenPerfil {
+    margin-right: map-get($margenes, xlarge);
+    border-radius: 90%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: map-get($margenes, medium);
+}
+
+.tarjetaPerfil {
+    width: 100%;
+    margin: map-get($margenes, none) auto;
+    border-radius: 30px;
+    border: 16px solid map-get($colores, colorLetras);
+    padding: map-get($paddings, xlarge);
+    margin-bottom: map-get($margenes, xlarge);
+
+    @media only screen and (min-width: map-get($breakpoints, small)) {
+        width: 80%;
+        border: 1px solid map-get($colores, colorLetras);
+    }
+}
+
+.informacionPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informacionPerfil > h1 {
+    font-family: map-get($fonts, playfair), serif;
+    font-size: 32px;
+    display: inline;
+    white-space: nowrap;
+}
+
+.informacionPerfil > ul > li {
+    font-family: map-get($fonts, nunito), serif;
+    font-size: 16px;
+}
